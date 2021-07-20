@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripte/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/styleCreationCompte.css">
+    <title>WEBLOG</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="img/logoWeblog.png" alt="" width="200px">
+        <form class="needs-validation" novalidate>
+            <div class="row g-3">
+                <div class="col-sm-6">
+                    <label for="firstName" class="form-label">Nom :</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                </div>
+
+                <div class="col-sm-6">
+                    <label for="lastName" class="form-label">Prénom(s) :</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                </div>
+
+                <div class="col-12">
+                    <label for="email" class="form-label">Email :</label>
+                    <input type="email" class="form-control" id="email" placeholder="qwerty@example.com">
+                </div>
+
+                <div class="col-12">
+                    <label for="address" class="form-label">Mot de Passe :</label>
+                    <input type="password" class="form-control" placeholder="12345678" required maxlength="8">
+                </div>
+                <div class="col-12">
+                    <label for="address" class="form-label">Confirmation Mot de Passe :</label>
+                    <input type="password" class="form-control" placeholder="" required maxlength="8">
+                </div>
+            </div>
+
+            <hr class="my-2">
+
+            <h4 class="mb-3" style="color: rgb(227, 229, 230);">Sexe :</h4>
+
+            <div class="my-3">
+                <div class="form-check">
+                    <input id="homme" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                    <label class="form-label" for="homme">Homme</label>
+                </div>
+                <div class="form-check">
+                    <input id="femme" name="paymentMethod" type="radio" class="form-check-input" required>
+                    <label class="form-label" for="femme">Femme</label>
+                </div>
+            </div>
+
+            
+
+            <hr class="my-2">
+
+            <a href="index.html" class="btn btn-lg bg-secondary w-100">Creation du compte</a>
+            <hr class="my-2">
+        </form>
+    </div>
+    </div>
+
+</body>
+
+</html>

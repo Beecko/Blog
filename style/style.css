@@ -1,0 +1,54 @@
+/*******************Tous les media*********************/
+body{
+    background-color: rgb(39, 38, 38);
+    margin: 0px;
+    padding: 0px;
+}
+
+/*******************smartphone et tablette*********************/
+@media(max-width: 991.98px) {
+    
+}
+
+
+/*******************Pc et TV*********************/
+@media(min-width:992px){
+    #navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar-nav{
+        padding-left: 30%;
+    }
+    .card-title{
+        font-weight: bold, initial;
+    }
+    #pagination{
+        padding-left: 35%;
+    }
+    .page-link{
+        color: rgb(39, 38, 38);
+    }
+
+    .info{
+        color: rgb(227, 229, 230);
+    }
+    .val{
+        font-weight: initial, bold;
+    }
+/*     
+    #information{
+        padding-left: 300px;
+    } */
+}
+
+.blog-footer {
+    padding: 2.5rem 0;
+    color: #727272;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+  }
+  .blog-footer p:last-child {
+    margin-bottom: 0;
+  }
